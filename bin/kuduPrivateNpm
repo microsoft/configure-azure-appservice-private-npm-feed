@@ -1,0 +1,6 @@
+#!/usr/bin/env node
+
+'use strict';
+
+const kpm = require('./kuduPrivateNpm.js');
+kpm.main();

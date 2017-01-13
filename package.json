@@ -1,0 +1,40 @@
+{
+  "name": "configure-azure-appservice-private-npm-feed",
+  "version": "0.5.0",
+  "description": "Deployment configuration script enabling a private NPM feed with Azure App Service, including using Azure KeyVault to resolve a token to use the feed.",
+  "main": "./bin/kuduPrivateNpm.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "bin": {
+    "kuduPrivateNpm": "./bin/kuduPrivateNpm"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/microsoft/configure-azure-appservice-private-npm-feed.git"
+  },
+  "keywords": [
+    "deployment",
+    "app",
+    "service",
+    "keyvault",
+    "npm",
+    "private",
+    "npm",
+    "feed",
+    "feeds"
+  ],
+  "author": "Microsoft Open Source Programs Office",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/microsoft/configure-azure-appservice-private-npm-feed/issues"
+  },
+  "homepage": "https://github.com/microsoft/configure-azure-appservice-private-npm-feed#readme",
+  "dependencies": {
+    "async": "^2.1.4",
+    "painless-config-resolver": "^0.1.3"
+  },
+  "devDependencies": {
+    "eslint": "^3.12.0"
+  }
+}
