@@ -98,7 +98,6 @@ function configureNpm(config, callback) {
       return callback(new Error(`For the feed ${feed} and scope ${scope}, no registry value was configured.`));
     }
     scopesAndRegistries[scope] = registry;
-    console.dir(scopesAndRegistries);
   }
   work.push(configureScopes.bind(null, npmCommand, scopesAndRegistries));
 
